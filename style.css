@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Oriond';
+    src: url('ORIOND.TTF') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-oriond: 'Oriond', cursive;
+}
+
+header {
+    font-family: var(--fonte-oriond);
+    text-align: center;
+    background-image: linear-gradient(45deg, #ffed00, #c2ff00, #00c7f2);
+    height: 60vh;
+
+}
+
+header > h1 {
+    font-size: 2.5em;
+    padding-top: 50px;
+    margin-left: -20px;    
+    margin-bottom: -50px;
+}
+
+header > h2 {    
+    font-size: 80px;
+    color: white;  
+       
+}
