@@ -22,7 +22,7 @@ header {
     font-family: var(--fonte-oriond);
     text-align: center;
     background-image: linear-gradient(45deg, #ffed00, #c2ff00 20%, #00c7f2 70%, #2A7DF9 90%);
-    height: 55vh;
+    height: 53vh;
     margin-top: 30px;
 
 }
@@ -44,10 +44,18 @@ header > h2 {
 
 header > p {
     font-size: 1em;
+    font-family: var(--fonte-roboto);
     color: white;
-    font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 110px;  
+    font-weight: lighter;    
+    padding-top: 30px;  
+}
+
+.cadastrar {
+    color: white;
+    font-size: 18px;
+    font-family: var(--fonte-roboto);
+    font-weight: normal;
+    padding-top: 19px;
 }
 
 nav {    
@@ -122,3 +130,45 @@ nav > a {
 .cadastre:hover {
     background-color: #03608A;
 }
+
+.cadastrar {
+    background-image:linear-gradient(to right,#077265 20%, #0A6D6C);    
+    border-radius: 50px;
+    margin: 22px 775px 0px 775px;
+    padding: 28px 44px 28px 44px;
+}
+
+.cadastrar:hover {    
+    background-image: unset;
+    background-color: white;
+    color: black;    
+}
+
+footer {
+    background-color: black;    
+    height: 80vh;    
+}
+
+li {
+    font-family: var(--fonte-roboto);
+    font-weight: normal;
+    font-size: 0.95em;
+    margin-left: 80px;    
+    list-style: none;
+    padding: 10px;    
+    
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.titulofooter {
+    padding-top: 170px;
+    color: #52525D;
+    font-weight: bold;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
