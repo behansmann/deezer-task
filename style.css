@@ -6,15 +6,24 @@
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 :root {
     --fonte-oriond: 'Oriond', cursive;
+    --fonte-roboto: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px 0px;
 }
 
 header {
     font-family: var(--fonte-oriond);
     text-align: center;
-    background-image: linear-gradient(45deg, #ffed00, #c2ff00, #00c7f2);
-    height: 60vh;
+    background-image: linear-gradient(45deg, #ffed00, #c2ff00 20%, #00c7f2 70%, #2A7DF9 90%);
+    height: 55vh;
+    margin-top: 30px;
 
 }
 
@@ -23,10 +32,93 @@ header > h1 {
     padding-top: 50px;
     margin-left: -20px;    
     margin-bottom: -50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);  
 }
 
 header > h2 {    
     font-size: 80px;
-    color: white;  
+    margin-top: 50px;
+    color: white;       
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);  
+}
+
+header > p {
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 110px;  
+}
+
+nav {    
+    text-align: right;       
        
+}
+
+nav > a {
+    color: #32323D;
+    font-family: var(--fonte-roboto);    
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.deezer {    
+    padding: 0px 0px 0px 122px;
+    max-width: 130px;
+    display: block;   
+    max-height: 30px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    
+}
+
+.padrao1:visited, .padrao2:visited {
+    font-family: var(--fonte-roboto);    
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #32323D;
+}
+
+.padrao1:hover, .padrao2:hover {
+    border-bottom: 4px solid #2692B7;
+    padding: 28px 0px;
+}
+
+.padrao1 {
+    margin-right: 30px;    
+}
+
+.padrao2 {         
+    margin-right: 30px;
+}
+
+.login {
+    color: #17A6C6;
+    margin-right: 10px;
+    Border-radius: 50px;      
+    font-size: 0.95em;
+    padding: 10px 24px 10px 24px;       
+    border-width: medium;
+    border: 2px solid #17A6C6;
+
+}
+
+.login:hover {
+    color: #03608A;
+    border-color: #03608A;
+}
+
+.cadastre {
+    color: white;
+    margin-right: 130px;         
+    border-radius: 50px;    
+    font-size: 0.95em;    
+    padding: 12px 24px 12px 24px;
+    background-color: #2D96C8;
+}
+
+.cadastre:hover {
+    background-color: #03608A;
 }
