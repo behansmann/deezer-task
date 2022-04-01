@@ -149,18 +149,23 @@ footer {
     height: 80vh;    
 }
 
+ul {
+    columns: 4;
+    
+}
+
 li {
     font-family: var(--fonte-roboto);
     font-weight: normal;
     font-size: 0.95em;
     margin-left: 80px;    
     list-style: none;
-    padding: 10px;    
+    padding: 10px; 
+    color: white;   
     
 }
 
-li > a {
-    color: white;
+li > a {    
     text-decoration: none;
 }
 
