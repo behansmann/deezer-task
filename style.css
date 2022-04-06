@@ -144,12 +144,82 @@ nav > a {
     color: black;    
 }
 
+.s1 {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    margin: 0px 0px 0px 32px;
+}
+
+.s2 {
+    margin-top: 50px;
+    margin-bottom: 131px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+section.s2 > h1 {
+    font-family: var(--fonte-oriond);
+    font-size: 4.5em;
+    text-align: center;
+    margin: 90px 0px;
+
+
+}
+
+.s2 > div {
+    margin: 0px 175px 0px 120px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 80px;
+    -webkit-column-width: auto;  
+    display: block;
+    
+    
+}
+
+.s2 div > h2 {
+    font-size: 1.25em;
+    font-family: var(--fonte-oriond);    
+    
+}
+
+.s2 div > p {
+    color: #818181;
+    font-family: var(--fonte-roboto);
+    font-size: 1em;
+    margin: 20px 0px 60px 0px;
+}
+
+div.cadastrar2 {
+    color: white;
+}
+
+.cadastrar2 {
+    background-image:linear-gradient(45deg, #ffed00, #c2ff00 02%, #00c7f2 70%, #2A7DF9 90%);    
+    border-radius: 50px;
+    
+    margin: 22px 775px 0px 775px;
+    padding: 28px 44px 28px 44px;
+    
+}
+
+.cadastrar2:hover {    
+    background-image: unset;
+    background-color: black;
+     
+}
+
+    
+    
+    
+
 footer {
     background-color: black;    
     justify-content: space-around;
     align-items: center;    
     display: flex;  
     color: white;
+    
 }
 
 .lista1, .lista2, .lista3, .lista4 {
