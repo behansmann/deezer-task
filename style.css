@@ -146,35 +146,34 @@ nav > a {
 
 footer {
     background-color: black;    
-    height: 80vh;    
+    justify-content: space-around;
+    align-items: center;    
+    display: flex;  
+    color: white;
 }
 
-ul {
-    columns: 4;
-    display: flex;
-    
-}
-
-li {
-    font-family: var(--fonte-roboto);
-    font-weight: normal;
-    font-size: 0.95em;
-    margin-left: 80px;    
+.lista1, .lista2, .lista3, .lista4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
     list-style: none;
-    padding: 10px; 
-    color: white;   
+    font-family: var(--fonte-roboto);
+    font-weight: bold;
+    font-size: 0.85em;
+    line-height: 2.5;
+}
+
+.titulofooter {    
+    color: #52525D;
+    margin-bottom: 10px;
     
 }
 
-li > a {    
+a {
     text-decoration: none;
+    color: white;
 }
 
-.titulofooter {
-    padding-top: 170px;
-    color: #52525D;
-    font-weight: bold;
-    font-size: 0.95em;
-    margin-bottom: 10px;
-}
+
+    
+
 
