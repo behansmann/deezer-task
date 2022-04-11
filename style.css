@@ -72,12 +72,12 @@ nav > a {
 }
 
 .deezer {    
-    padding: 0px 0px 0px 122px;
+    padding: 150px 0px 0px 122px;
     max-width: 130px;
     display: block;   
     max-height: 30px;
-    margin-top: 0px;
-    padding-bottom: 30px;
+    margin-top: -80px;
+    
     
 }
 
@@ -158,7 +158,7 @@ nav > a {
     margin-right: 250px;
 }
 
-section.s2 > h1 {
+.s2 > h1, .s3 > h1 {
     font-family: var(--fonte-oriond);
     font-size: 4.5em;
     text-align: center;
@@ -186,22 +186,28 @@ section.s2 > h1 {
     margin: 20px 0px 60px 0px;
 }
 
+.s3 > p {
+    color: #818181;
+    font-family: var(--fonte-oriond);
+    text-align: center;
+}
+
+
+
 .cadastrar2 > a {
     color: white;        
     font-size: 1.25em;
-    font-family: var(--fonte-roboto);    
-    
-    
-    
-    
-    
+    font-family: var(--fonte-roboto);     
 }
 
 .cadastrar2 {
     background-image:linear-gradient(45deg, #ffed00, #c2ff00 02%, #00c7f2 70%, #2A7DF9 90%);    
     border-radius: 50px;      
-    display: block;
-    max-width: 200px;
+    display: block;        
+    padding-left: 59px;
+    margin-left: 553px;
+    max-width: 146px;
+    
     
     
 }
