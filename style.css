@@ -12,32 +12,35 @@
 :root {
     --fonte-oriond: 'Oriond', cursive;
     --fonte-roboto: 'Roboto', sans-serif;
+    font-size: 100%;
 }
 
 * {
-    margin: 0px 0px;
+    margin: 0;
+    padding: 0;
 }
+
+/* 1 rem = 16 px */
 
 header {
     font-family: var(--fonte-oriond);
     text-align: center;
     background-image: linear-gradient(45deg, #ffed00, #c2ff00 20%, #00c7f2 70%, #2A7DF9 90%);
     height: 53vh;
-    margin-top: 30px;
-
+    margin-top: 1.875rem;
 }
 
 header > h1 {
     font-size: 2.5em;
-    padding-top: 50px;
-    margin-left: -20px;    
-    margin-bottom: -50px;
+    padding-top: 3.125rem;
+    margin-left: -1.25rem;    
+    margin-bottom: -3.125rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);  
 }
 
 header > h2 {    
-    font-size: 80px;
-    margin-top: 50px;
+    font-size: 5rem;
+    margin-top: 3.125rem;
     color: white;       
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);  
 }
@@ -47,70 +50,66 @@ header > p {
     font-family: var(--fonte-roboto);
     color: white;
     font-weight: lighter;    
-    padding-top: 30px;  
+    padding-top: 1.875rem;  
 }
 
 .cadastrar {
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: var(--fonte-roboto);
     font-weight: normal;
-    padding-top: 19px;
+    padding-top: 1.1875rem;
 }
 
 nav {    
     text-align: right;       
-       
 }
 
 nav > a {
     color: #32323D;
     font-family: var(--fonte-roboto);    
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
 }
 
 .deezer {    
-    padding: 150px 0px 0px 122px;
-    max-width: 130px;
+    padding: 9.375rem 0rem 0rem 7.625rem;
+    max-width: 8.125rem;
     display: block;   
-    max-height: 30px;
-    margin-top: -80px;
-    
-    
+    max-height: 1.875rem;
+    margin-top: -5rem;  
 }
 
 .padrao1:visited, .padrao2:visited {
     font-family: var(--fonte-roboto);    
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     color: #32323D;
 }
 
 .padrao1:hover, .padrao2:hover {
     border-bottom: 4px solid #2692B7;
-    padding: 28px 0px;
+    padding: 1.75rem 0rem;
 }
 
 .padrao1 {
-    margin-right: 30px;    
+    margin-right: 1.875rem;    
 }
 
 .padrao2 {         
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 
 .login {
     color: #17A6C6;
-    margin-right: 10px;
-    Border-radius: 50px;      
+    margin-right: 0.625rem;
+    Border-radius: 3.125rem;      
     font-size: 0.95em;
-    padding: 10px 24px 10px 24px;       
+    padding: 0.625rem 1.5rem 0.625rem 1.5rem;       
     border-width: medium;
     border: 2px solid #17A6C6;
-
 }
 
 .login:hover {
@@ -120,10 +119,10 @@ nav > a {
 
 .cadastre {
     color: white;
-    margin-right: 130px;         
+    margin-right: 8.125rem;         
     border-radius: 50px;    
     font-size: 0.95em;    
-    padding: 12px 24px 12px 24px;
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
     background-color: #2D96C8;
 }
 
@@ -134,8 +133,8 @@ nav > a {
 .cadastrar {
     background-image:linear-gradient(to right,#077265 20%, #0A6D6C);    
     border-radius: 50px;
-    margin: 22px 775px 0px 775px;
-    padding: 28px 44px 28px 44px;
+    margin: 1.375rem 48.4375rem 0rem 48.4375rem;
+    padding: 1.75rem 2.75rem 1.75rem 2.75rem;
 }
 
 .cadastrar:hover {    
@@ -166,14 +165,14 @@ h1 {
     font-family: var(--fonte-oriond);
     font-size: 4.5em;
     text-align: center;
-    margin: 90px 0px;
+    margin: 5.625rem 0rem;
 }
 
 .s2 > div {
     display: block;                
     columns: 3;
-    column-gap: 80px;
-    width: 1060px;
+    column-gap: 5rem;
+    width: 66.25rem;
 }
 
 .s2 > div > a {
@@ -181,12 +180,12 @@ h1 {
 }
 
 .cadastrar3 {
-    margin-top: 35px;
+    margin-top: 2.1875rem;
     background-image:linear-gradient(45deg, #ffed00, #c2ff00 02%, #00c7f2 70%, #2A7DF9 90%);    
     border-radius: 50px;      
     display: block;        
-    max-width: 105px;     
-    padding: 13px 50px;   
+    max-width: 6.5625rem;     
+    padding: 0.8125rem 3.125rem;   
     text-align: center;   
 }
 
@@ -204,12 +203,12 @@ h1 {
     color: #818181;
     font-family: var(--fonte-roboto);
     font-size: 1em;
-    margin: 20px 0px 60px 0px;
+    margin: 1.25rem 0rem 3.75rem 0rem;
 }
 
 .s3 {
-    margin-top: -80px;
-    margin-bottom: 50px;
+    margin-top: -5rem;
+    margin-bottom: 3.125rem;
     display: flex;    
     flex-direction: column;  
     justify-content: space-between;                  
@@ -223,17 +222,17 @@ h1 {
 }
 
 .s4 > img {
-    margin-left: 513px;
+    margin-left: 32.0625rem;
 }
 
 .s5 {
-    margin-top: 50px;   
+    margin-top: 3.125rem;   
     justify-content: center;  
 }
 
 .s6 > p {
-    margin-top: -40px;
-    padding: 0px 654px;
+    margin-top: -2.5rem;
+    padding: 0rem 40.875rem;
 }
 
 .s7 > div {    
@@ -243,47 +242,47 @@ h1 {
     align-items: center;           
     justify-content: center;   
     vertical-align: middle;
-    margin: 60px 500px;
+    margin: 3.75rem 31.25rem;
 }
 
 .s7 > div > h2 > img {
-    height: 245px;
-    width: 245px; 
+    height: 15.3125rem;
+    width: 15.3125rem; 
     border-radius: 5px;
     -webkit-box-shadow: 0 0 20px #d2d2d2;
     box-shadow: 0 0 20px #d2d2d2;     
 }
 
 .s7 > div > p {
-    margin: 5px 0px 35px 0px;
+    margin: 0.3125rem 0rem 2.1875rem 0rem;
     color: #818181;
     font-family: var(--fonte-roboto);    
     font-size: 1em;        
 }
 
 .s8 > p {
-    margin: -40px 40px 30px;
+    margin: -2.5rem 2.5rem 1.875rem;
 }
 
 .s9 > img {
-    margin-left: 235px;
+    margin-left: 14.6875rem;
 }
 
 .s10 {
     display: block;
     flex-direction: column;
     columns: 2;    
-    column-gap: 25px;
+    column-gap: 1.5625rem;
     width: 70vh;   
     text-align: right;
-    margin: 0px 590px;    
+    margin: 0rem 36.875rem;    
 }
 
 .s10 > h2 {
     font-family: var(--fonte-oriond);
     font-size: 4.5em;
     text-align: right;
-    margin: 90px 0px 30px 0px;
+    margin: 5.625rem 0rem 1.875rem 0rem;
 }
 
 .s10 > p {
@@ -299,10 +298,10 @@ h1 {
     background-image:linear-gradient(45deg, #ffed00, #c2ff00 02%, #00c7f2 70%, #2A7DF9 90%);    
     border-radius: 50px;      
     display: block;    
-    margin-top: 50px;  
-    margin-left: 110px;
-    max-width: 105px;     
-    padding: 13px 50px;   
+    margin-top: 3.125rem;  
+    margin-left: 6.875rem;
+    max-width: 6.5625rem;     
+    padding: 0.8125rem 3.125rem;   
     text-align: center;    
 }
 
@@ -316,7 +315,7 @@ h1 {
 }
 
 .s11 > p {
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
 }
 
 .s11 > a {
@@ -333,20 +332,20 @@ h1 {
     align-items: center;           
     justify-content: center;   
     vertical-align: middle;
-    margin: 60px 500px;
+    margin: 3.75rem 31.25rem;
 }
 
 .s12 > div > h2 > img {
-    height: 150px;
-    width: 168px; 
-    padding: 49px 38px;
+    height: 9.375rem;
+    width: 10.5rem; 
+    padding: 3.0625rem 2.375rem;
     border-radius: 50px;
     -webkit-box-shadow: 0 0 20px #d2d2d2;
     box-shadow: 0 0 20px #d2d2d2;     
 }
 
 .s12 > div > p {
-    margin: 5px 0px 35px 0px;
+    margin: 0.3125rem 0rem 2.1875rem 0rem;
     color: #818181;
     font-family: var(--fonte-roboto);    
     font-size: 1em;        
@@ -355,12 +354,12 @@ h1 {
 .faq > div {        
     display: block;   
     columns: 3; 
-    column-gap: 70px;
+    column-gap: 4.375rem;
     text-align: left;
     align-items: center;           
     justify-content: center;   
     vertical-align: middle;
-    margin: 60px 420px;  
+    margin: 3.75rem 26.25rem;  
     height: fit-content;
 }
 
@@ -373,9 +372,9 @@ h1 {
 }
 
 .imgplaylist > img {    
-    margin: 0px 30px;
-    height: 245px;
-    width: 245px; 
+    margin: 0rem 1.875rem;
+    height: 15.3125rem;
+    width: 15.3125rem; 
     border-radius: 5px;
     -webkit-box-shadow: 0 0 20px #d2d2d2;
     box-shadow: 0 0 20px #d2d2d2;    
@@ -385,12 +384,12 @@ h1 {
     display: flex;
     justify-content: center;   
     text-align: center;  
-    margin-bottom: 20px;  
+    margin-bottom: 1.25rem;  
 }
 
 .textos2 {
     display: flex;    
-    margin: 0px 495px;
+    margin: 0rem 30.9375rem;
     text-align: center;
 }
 
@@ -398,12 +397,12 @@ h1 {
     font-family: var(--fonte-roboto);
     color: #818181;      
     font-size: 1em;    
-    padding: 10px 35px;
+    padding: 0.625rem 2.1875rem;
 }
 
 .textos > p {
-    padding: 10px 50px;
-    width: 220px;
+    padding: 0.625rem 3.125rem;
+    width: 13.75rem;
     text-align: center;
     font-family: var(--fonte-roboto);
     color: #818181;      
@@ -421,13 +420,13 @@ strong {
 }
 
 .cadastrar2 {
-    margin-top: 35px;
+    margin-top: 2.1875rem;
     background-image:linear-gradient(45deg, #ffed00, #c2ff00 02%, #00c7f2 70%, #2A7DF9 90%);    
     border-radius: 50px;      
     display: block;      
-    margin-left: 850px;
-    max-width: 105px;     
-    padding: 13px 50px;   
+    margin-left: 53.125rem;
+    max-width: 6.5625rem;     
+    padding: 0.8125rem 3.125rem;   
     text-align: center;    
 }
 
@@ -436,23 +435,17 @@ strong {
     background-color: black;     
 }
 
-
-    
-    
-    
-
 footer {
     background-color: black;    
     justify-content: space-around;
     align-items: center;    
     display: flex;  
     color: white;
-    
 }
 
 .lista1, .lista2, .lista3, .lista4 {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     list-style: none;
     font-family: var(--fonte-roboto);
     font-weight: bold;
@@ -462,16 +455,10 @@ footer {
 
 .titulofooter {    
     color: #52525D;
-    margin-bottom: 10px;
-    
+    margin-bottom: 0.625rem;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
-
-
-    
-
-
