@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Oriond';
-    src: url('ORIOND.TTF') format('opentype');
+    src: url('/public/assets/fonts/ORIOND.TTF') format('opentype');
     font-weight: normal;
 }
 
@@ -61,9 +61,11 @@ header > p {
     padding-top: 1.1875rem;
 }
 
-nav {    
-    text-align: right;       
+.head {
+    display: flex;
+    justify-content: space-evenly; 
 }
+
 
 nav > a {
     color: #32323D;
